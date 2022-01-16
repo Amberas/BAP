@@ -1,0 +1,25 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message{
+  font-size: 4rem;
+}
